@@ -50,7 +50,7 @@
     overflow: visible; }
   .flexnav li ul li a {
     display: block;
-    background: #9f1804; }
+    background: #851014; }
   .flexnav ul li ul li a {
     background: #bfbfbc; }
   .flexnav ul li ul li ul li a {
@@ -70,9 +70,9 @@
       cursor: pointer; }
     .flexnav .touch-button .navicon {
       position: relative;
-      top: 1.4em;
+      top: 0.9em;
       font-size: 12px;
-      color: #666; }
+      color: #ddd; }
 
 .menu-button {
   position: relative;
