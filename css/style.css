@@ -20,8 +20,8 @@ html, body {
 	/*border-bottom:1px solid #000;*/
 	display:block;
 	z-index: 5;
-	/*background-color:#2e4b84;*/
-	background-image: url(/images/headerBG.png);
+	background-color:#221e1f;
+	/*background-image: url(/images/headerBG.png);*/
 	background-repeat:repeat-x;
 	background-position:bottom;
 
@@ -69,7 +69,8 @@ html, body {
 	bottom:0;
 	left:0;
 	background:#000;
-	background-image: url(/images/footerBG.png);
+	background-color:#221e1f;
+	/*background-image: url(/images/footerBG.png);*/
 	/*border-top:1px solid #000;*/
 	display:block;
 }
