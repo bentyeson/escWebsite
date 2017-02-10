@@ -7,16 +7,16 @@ html, body {
 #wrapper {
 	min-height:100%;
 	position:relative;
-	background-image: url(/images/pageBG.png);
+	background-image: url(../images/elphinBallBG.png);
 	background-repeat:no-repeat;
-	background-position:right top 125px;
+	background-position:center 20px;
 	background-attachment: fixed;
-	border-top: 7px solid #000;
+	/*border-top: 7px solid #000;*/
 	border-left: 2px solid #000;
 	border-right: 2px solid #000;
 }
 #headerWrapper {
-	height:100px;
+	height:150px;
 	/*border-bottom:1px solid #000;*/
 	display:block;
 	z-index: 5;
@@ -35,16 +35,14 @@ html, body {
 	width: 96%;	
 	max-width: 960px;
 	margin:auto;
+	text-align:center;
 }
 
 #title{
-	padding-top:5px;
-	float:left;
+	margin:0 auto;
+	padding-top:0px;
 }
 
-#logo{
-	float:right;
-}
 
 #contentWrapper {
 	margin: auto;
@@ -73,6 +71,7 @@ html, body {
 	/*background-image: url(/images/footerBG.png);*/
 	/*border-top:1px solid #000;*/
 	display:block;
+	border-top:4px solid #851014;
 }
 
 #footer{
@@ -84,10 +83,11 @@ html, body {
 
 #navWrapper{
 	display:block;
-	height:37px;
-	background-color: #23385b;
+	height:40px;
+	background-color: #851014;
 	text-align:center;
-	border-bottom:1px solid #000000;
+	border-bottom:2px solid #000000;
+	border-top: 2px solid #FFFFFF;
 }
 
 #navigation{

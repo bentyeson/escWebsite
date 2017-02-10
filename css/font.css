@@ -6,15 +6,16 @@ p{
 }
 
 h1{
-	font-family: 'Roboto', Arial, serif;
+	font-family: 'Grand National Italic', Arial, serif;
 	font-weight: 400; 
 }
 
 h2{
-	font-family: 'Roboto', Arial, serif;
+	font-family: 'Grand National Condensed Italic', Arial, serif;
 	font-weight: 500;
-	font-size: 24px;
+	font-size: 36px;
 	line-height:normal;
+	color: #ed1c24;
 }
 
 h3{
@@ -41,12 +42,10 @@ h5{
 }
 
 #title {
-	font-family: 'Architects Daughter', cursive;
 	font-weight: 400; 
 	font-size:70px;
 }
 #title li.blurb{
-	font-family: 'Nothing You Could Do', cursive;
 	font-weight: 700; 
 	font-size:22.5px;
 	color: #CCCCCC;
@@ -77,6 +76,17 @@ h5{
 #contactForm .star{
 	color: #9F1804;
 }
+
+@font-face {
+    font-family: 'Grand National Italic';
+    src: url(../fonts/grandnationalital.woff);
+}
+
+@font-face {
+    font-family: 'Grand National Condensed Italic';
+    src: url(../fonts/grandnationalcondital.woff);
+}
+
 @media screen and (max-width: 799px) {
 	#title {
 	padding-left:10px;
@@ -87,10 +97,7 @@ h5{
 }	
 	
 }
-/*	font-family: 'Indie Flower', cursive;
- 	font-family: 'Shadows Into Light Two', cursive;
-	font-family: 'Architects Daughter', cursive;
- 	font-family: 'Nothing You Could Do', cursive;
+/*	
   
   
  */
